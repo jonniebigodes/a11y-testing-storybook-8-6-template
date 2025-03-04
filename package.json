@@ -23,7 +23,13 @@
     "test-storybook:json": "test-storybook --index-json",
     "test-storybook:json:ci": "concurrently --kill-others --success first --names \"SB,TEST\" --prefix-colors \"magenta,blue\" \"yarn build-storybook:test && npx serve build/storybook --listen 6006 --no-request-logging\" \"wait-on tcp:6006 && SKIP_SNAPSHOTS=true yarn test-storybook:json\"",
     "test:ci": "vitest run",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "playwright": "playwright test",
+    "playwright:custom-directory": "playwright test --output custom-test-results",
+    "playwright:ui": "playwright test --ui",
+    "playwright:debug": "playwright test --debug",
+    "playwright:codegen": "playwright codegen",
+    "playwright:report": "playwright show-report"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --fix",
@@ -63,9 +69,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.26.9",
+    "@chromatic-com/playwright": "^0.11.3",
     "@chromatic-com/storybook": "^3.2.5",
     "@eslint/js": "^9.21.0",
     "@ladle/react": "^5.0.1",
+    "@playwright/test": "^1.50.1",
     "@storybook/addon-a11y": "^8.6.1",
     "@storybook/addon-coverage": "^1.0.5",
     "@storybook/addon-designs": "^8.2.0",
