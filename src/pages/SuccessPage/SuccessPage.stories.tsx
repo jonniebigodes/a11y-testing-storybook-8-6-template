@@ -7,10 +7,6 @@ const meta = {
   component: SuccessPage,
   parameters: {
     layout: 'fullscreen',
-    design: {
-      type: 'figspec',
-      url: 'https://www.figma.com/file/3Q1HTCalD0lJnNvcMoEw1x/Mealdrop?node-id=426%3A3444',
-    },
   },
 } satisfies Meta<typeof SuccessPage>
 

@@ -9,12 +9,6 @@ const meta = {
   args: {
     onChange: fn(),
   },
-  parameters: {
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/3Q1HTCalD0lJnNvcMoEw1x/Mealdrop?type=design&node-id=1126-3572&mode=design&t=zmyrZnTzOLfLqBwr-4',
-    },
-  },
 } satisfies Meta<typeof Input>
 
 export default meta

@@ -8,10 +8,6 @@ const meta = {
   parameters: {
     layout: 'fullscreen',
     chromatic: { delay: 1200 },
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/3Q1HTCalD0lJnNvcMoEw1x/Mealdrop?type=design&node-id=12703-2132&mode=design&t=PGeoMU7t8HOFToQL-4',
-    },
   },
 } satisfies Meta<typeof Spinner>
 

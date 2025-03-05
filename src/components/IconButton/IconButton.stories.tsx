@@ -5,12 +5,6 @@ import { IconButton } from './IconButton'
 const meta = {
   title: 'Components/IconButton',
   component: IconButton,
-  parameters: {
-    design: {
-      type: 'figma',
-      url: 'https://www.figma.com/file/3Q1HTCalD0lJnNvcMoEw1x/Mealdrop?type=design&node-id=1131-437&mode=design&t=zmyrZnTzOLfLqBwr-4',
-    },
-  },
 } satisfies Meta<typeof IconButton>
 
 export default meta

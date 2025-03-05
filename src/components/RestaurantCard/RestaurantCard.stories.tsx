@@ -9,10 +9,6 @@ const meta = {
   title: 'Components/RestaurantCard',
   component: RestaurantCard,
   parameters: {
-    design: {
-      type: 'figspec',
-      url: 'https://www.figma.com/file/3Q1HTCalD0lJnNvcMoEw1x/Mealdrop?type=design&node-id=1091-2986&mode=design&t=PGeoMU7t8HOFToQL-4',
-    },
     chromatic: {
       modes: {
         light: allModes.light,
